@@ -1,0 +1,109 @@
+.card-sales h2{
+  margin-top: 40px;
+  padding: 0 0 0 10px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #141414;
+}
+.card-sales .swiper-wrapper{
+  min-height: 670px;
+}
+.sales_row{
+  display: flex;
+  flex-direction: column;
+  background: #FEFEFE;
+  box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
+  width: 101%;
+  margin-top: 50px;
+  padding: 20px;
+  img{
+    max-width: 250px;
+    width: 100%;
+  }
+}
+.sales_info{
+  margin-top: 50px;
+  width: 100%;
+  h3{
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    color: #141414;
+  }
+  small{
+    display: flex;
+    border-bottom: 1px solid rgba(20, 20, 20, 0.5);
+    width: 100%;
+    margin-top: 10px;
+  }
+  button{
+    display: flex;
+    background: #E8AA31;
+    box-shadow: 0px 4px 20px rgb(232 170 49 / 43%);
+    border-radius: 3px;
+    padding: 15px 15px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+}
+.sales_commim{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ABABAB;
+  margin-top: 15px;
+}
+
+//
+
+.card-news{
+  background: url('../img/bg-banner.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  margin-top: 27px;
+}
+.news_row{
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+}
+.news_title{
+  max-width: 400px;
+  h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  p{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+  }
+  button{
+    font-weight: 600;
+    font-size: 18px;
+    color: #E8AA31;
+  }
+}
+.news_btn{
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  gap: 10px;
+  svg{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    color: #E8AA31;
+  }
+}
+
+//

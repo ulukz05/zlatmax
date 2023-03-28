@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+  background: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.wrapper {
+  font-family: 'Montserrat', sans-serif;
+}
+.hamburger{
+  display: none;
+}
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before{
+  background-color: #fff;
+}
+.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner:after, .hamburger.is-active .hamburger-inner:before{
+  background-color: #fff;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+.mn{
+  margin-bottom: 100px;
+}
+.swiper-scrollbar-drag{
+  background: #E8AA31;
+}
+
+@import './include/fonts';
+@import './include/var';
+@import './layout/header';
+@import './include/banner-swiper';
+@import './include/banner-card';
+@import './layout/footer';
+
+@import './layout/media';
